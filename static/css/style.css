@@ -1,0 +1,500 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('/static/images/bgg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  padding: 40px;
+  width: 350px;
+  color: white;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.login-box h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.user-box {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+  outline: none;
+}
+
+.user-box label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  color: white;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -15px;
+  font-size: 12px;
+  color: #03e9f4;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #03e9f4;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.register-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('../images/bgg.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.login-box {
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+.user-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+
+button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Chrome, Safari, Edge */
+::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+/* Firefox */
+input:-moz-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+input::-moz-placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+/* Internet Explorer */
+input:-ms-input-placeholder {
+  color: white;
+}
+
+/* Edge (Legacy) */
+input::-ms-input-placeholder {
+  color: white;
+}
+
+/* welcome.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background: linear-gradient(120deg, #6a11cb 0%, #2575fc 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 40px 60px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+
+.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.glass-card h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.glass-card p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.logout-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Set full background image */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('/static/images/bgg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login Box */
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 350px;
+  animation: fadeInUp 1s ease-out;
+}
+
+/* Heading */
+.login-box h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 28px;
+  text-shadow: 0px 0px 6px rgba(255, 105, 180, 0.6);
+}
+
+/* Input fields */
+.user-box {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+}
+
+.user-box label {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  pointer-events: none;
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.3s ease;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -14px;
+  font-size: 12px;
+  color: #ffb6c1;
+}
+
+/* Placeholder style */
+::placeholder {
+  color: rgba(255, 192, 203, 0.8);
+  font-weight: 500;
+}
+
+/* Remember Me and Forgot Password */
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.remember-forgot a {
+  color: #ffc0cb;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.4);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 182, 193, 0.6);
+}
+
+/* Register Link */
+.register-link {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.register-link a {
+  color: #ffc0cb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+/* General Body Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('../images/bgg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Centered Glass Box */
+.login-box {
+  width: 400px;
+  padding: 40px;
+  background: rgba(226, 22, 22, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(43, 52, 169, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #da6c6cde;
+  text-align: center;
+}
+
+/* Heading */
+.login-box h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #f76b6bdd;
+  text-shadow: 1px 1px 3px #ffc1d4;
+}
+
+/* Input Box Container */
+.user-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* Inputs */
+.user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #e877a4;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ffb6c1;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+/* Labels (for login page) */
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #e98494;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+/* Floating Label Animation */
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #ea2a71d5;
+  font-size: 12px;
+}
+
+/* Placeholders for Register Page */
+.user-box input::placeholder {
+  color: #e6768b;
+}
+
+/* Button */
+button {
+  background: linear-gradient(to right, #ff8aa5, #ffc3a0);
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: linear-gradient(to right, #ff6f91, #ff9472);
+  transform: scale(1.03);
+}
+
+/* Links under form */
+.register-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.register-link a {
+  color: #ffccdd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Remember & Forgot */
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #fbd6e2;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.remember-forgot a {
+  color: #ffc0cb;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Checkbox style */
+input[type="checkbox"] {
+  accent-color: #ff9bbd;
+}
